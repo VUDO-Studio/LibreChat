@@ -36,14 +36,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https:package"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://package"
   },
-  "homepage": "https://librechat.ai",
+  "homepage": "https://vudo-studio.dev",
   "devDependencies": {
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",

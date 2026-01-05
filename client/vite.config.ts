@@ -46,10 +46,10 @@ export default defineConfig(({ command }) => ({
       workbox: {
         globPatterns: [
           '**/*.{js,css,html}',
-          'assets/favicon*.png',
-          'assets/icon-*.png',
-          'assets/apple-touch-icon*.png',
-          'assets/maskable-icon.png',
+          'assets/favicon-VUDO.png',
+          'assets/icon-VUDO.png',
+          'assets/apple-touch-icon-VUDO.png',
+          'assets/maskable-icon-VUDO.png',
           'manifest.webmanifest',
         ],
         globIgnores: ['images/**/*', '**/*.map', 'index.html'],
@@ -58,34 +58,34 @@ export default defineConfig(({ command }) => ({
       },
       includeAssets: [],
       manifest: {
-        name: 'LibreChat',
-        short_name: 'LibreChat',
+        name: 'VUDO Studio' ,
+        short_name: 'VUDO Studio',
         display: 'standalone',
         background_color: '#000000',
         theme_color: '#009688',
         icons: [
           {
-            src: 'assets/favicon-32x32.png',
+            src: 'assets/favicon-32x32-VUDO.png',
             sizes: '32x32',
             type: 'image/png',
           },
           {
-            src: 'assets/favicon-16x16.png',
+            src: 'assets/favicon-16x16-VUDO.png',
             sizes: '16x16',
             type: 'image/png',
           },
           {
-            src: 'assets/apple-touch-icon-180x180.png',
+            src: 'assets/apple-touch-icon-180x180-VUDO.png',
             sizes: '180x180',
             type: 'image/png',
           },
           {
-            src: 'assets/icon-192x192.png',
+            src: 'assets/icon-192x192-VUDO.png',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: 'assets/maskable-icon.png',
+            src: 'assets/maskable-icon-VUDO.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable',
