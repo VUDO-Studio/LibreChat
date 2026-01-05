@@ -93,7 +93,7 @@ const sendVerificationEmail = async (user) => {
   await sendEmail({
     email: user.email,
     subject: 'Verify your email',
-    payload: {LibreChat
+    payload: {LibreChat,
       appName: process.env.APP_TITLE || 'VUDO Studio',
       name: user.name || user.username || user.email,
       verificationLink: verificationLink,
